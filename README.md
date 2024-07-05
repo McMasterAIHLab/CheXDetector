@@ -33,7 +33,7 @@ Medical image interpretation often encompasses diverse tasks, yet prevailing AI 
 
 After the setup, run "**python [create_dataset.py](src/dataset/create_dataset.py)**" to create the corresponding datasets for each task (representation learning, disease classification and disease progression monitoring). See doc string of create_dataset.py for more details.
 
-As a side note - we cannot provide you these files directly (i.e. you have to create these csv files yourself), since they contain patient information from Chest ImaGenome/MIMIC-CXR, to which only credentialed users with training in handling human participant data should have access (for privacy reasons).
+As a side note - we cannot provide you these files directly (i.e. you have to create the datasets yourself), since they contain patient information from Chest ImaGenome/MIMIC-CXR, to which only credentialed users with training in handling human participant data should have access (for privacy reasons).
 
 ## Training and Testing
 
